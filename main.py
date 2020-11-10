@@ -29,10 +29,10 @@ Admis.append(Administrador('Sharon', 'Tagual','ed','12'))
 #Cans.append(Cancion('3','Cancion3', 'Artista3','Album3','Imagen3','Fecha3', 'Links3', 'Linky3'))
 #=====================================Rutas para Administradores=======================================
 
-#@app.route('/', methods=['GET'])
-#def rutaInicial():
-#    print("Hola k ase")
-#    return("Hola alumnos")
+@app.route('/', methods=['GET'])
+def rutaInicial():
+    print("Hola k ase")
+    return("Hola alumnos")
 
 #Obtener todos los elemento
 @app.route('/Administradores', methods=['GET'])
